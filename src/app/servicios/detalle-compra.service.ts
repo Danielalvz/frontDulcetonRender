@@ -6,7 +6,7 @@ import { Injectable } from '@angular/core';
 })
 export class DetalleCompraService {
 
-  url = 'https://backenddulcetonsena-production.up.railway.app/controlador/DetalleCompraControlador.php';
+  url = 'https://dulceton.fwh.is/controlador/DetalleCompraControlador.php';
 
   constructor(private http: HttpClient) { }
 
